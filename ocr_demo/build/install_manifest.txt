@@ -1,0 +1,7 @@
+/home/suanfa/data2/ocr_example/ocr_demo/install/ocr_demo/./ocr_demo
+/home/suanfa/data2/ocr_example/ocr_demo/install/ocr_demo/.//rknn_weights/rec_hw.rknn
+/home/suanfa/data2/ocr_example/ocr_demo/install/ocr_demo/.//rknn_weights/det_hw.rknn
+/home/suanfa/data2/ocr_example/ocr_demo/install/ocr_demo/.//test_imgs/cut_time.jpg
+/home/suanfa/data2/ocr_example/ocr_demo/install/ocr_demo/./ppocr_keys_v1.txt
+/home/suanfa/data2/ocr_example/ocr_demo/install/ocr_demo/./run_rv1109_rv1126.sh
+/home/suanfa/data2/ocr_example/ocr_demo/install/ocr_demo/lib/librknn_api.so

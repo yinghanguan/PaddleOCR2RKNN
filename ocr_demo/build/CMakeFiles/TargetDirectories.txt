@@ -1,0 +1,7 @@
+/home/suanfa/data2/ocr_example/ocr_demo/build/CMakeFiles/install/strip.dir
+/home/suanfa/data2/ocr_example/ocr_demo/build/CMakeFiles/edit_cache.dir
+/home/suanfa/data2/ocr_example/ocr_demo/build/CMakeFiles/ocr_demo.dir
+/home/suanfa/data2/ocr_example/ocr_demo/build/CMakeFiles/install.dir
+/home/suanfa/data2/ocr_example/ocr_demo/build/CMakeFiles/rebuild_cache.dir
+/home/suanfa/data2/ocr_example/ocr_demo/build/CMakeFiles/list_install_components.dir
+/home/suanfa/data2/ocr_example/ocr_demo/build/CMakeFiles/install/local.dir
