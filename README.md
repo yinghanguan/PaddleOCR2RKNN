@@ -36,7 +36,7 @@ pip install rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl
     
     - `RKNN不支持动态输入所以要固定输入`
     
-      ![1](F:\211环境部署\README-master\test_imgs\1.jpg)
+      ![1](https://github.com/yinghanguan/PaddleOCR2RKNN/blob/main/test_imgs/1.jpg)
     
     ```python
     '''anaconda3\envs\paddle\Lib\site-packages\paddleocr\tools\infer\predict_det.py的212行加入'''
@@ -51,7 +51,7 @@ pip install rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl
     python paddle_ocr_test.py
     ```
     
-    ![7](F:\211环境部署\README-master\7.png)
+    ![7](https://github.com/yinghanguan/images/blob/main/7.png)
     
     得到要识别文字的检测模型输入大小和识别模型的输入大小（1，3，64，512）和（3，32，377）。
 
@@ -71,9 +71,9 @@ pip install rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl
 
   初始的det.onnx和rec.onnx分别为
 
-  ![det](F:\211环境部署\README-master\det.png)
+  ![det](https://github.com/yinghanguan/images/blob/main/det.png)
 
-  ![rec](F:\211环境部署\README-master\rec.png)
+  ![rec](https://github.com/yinghanguan/images/blob/main/rec.png)
 
   ```sh
   python onnx_trans.py --onnx_path det.onnx --output_path det_test.onnx --type det --det_h 64 --det_w 512
@@ -95,9 +95,9 @@ pip install rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl
 
   得到ONNX模型可视化
 
-  ![det_sim](F:\211环境部署\README-master\det_sim.png)
+  ![det_sim](https://github.com/yinghanguan/images/blob/main/det_sim.png)
 
-  ![rec_sim](F:\211环境部署\README-master\rec_sim.png)
+  ![rec_sim](https://github.com/yinghanguan/images/blob/main/rec_sim.png)
 
   测试修改节点并简化后的ONNX模型推理结果是否对应
 
@@ -111,7 +111,7 @@ pip install rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl
   - 第450、451、549行中的数字根据自己的图像在1.2中得出的结果进行更改。
   - 推理产生的两个npy文件会在后面的量化时用到。
 
-![0](F:\211环境部署\README-master\0.png)
+![0](https://github.com/yinghanguan/images/blob/main/0.png)
 
 ​	<a name="PC--ONNX2RKNN"></a>
 
@@ -135,7 +135,7 @@ python rknn_convert.py rec_time/ rknn_weights/ 0
 python paddle_ocr_rknn.py
 ```
 
-![14](F:\211环境部署\README-master\14.png)
+![14](https://github.com/yinghanguan/images/blob/main/14.png)
 
 注：修改方法与1.3中paddleocr_onnx_test.py一致，注意替换的是rknn模型的路径。
 
@@ -152,7 +152,7 @@ python paddle_ocr_rknn.py
 
     可能会出现这个，（借用一下交流群中群友的报错）。
     
-    ![bfc283b45a4fe496ec4bc6d2b9a1fb4](F:\211环境部署\README-master\bfc283b45a4fe496ec4bc6d2b9a1fb4.jpg)
+    ![bfc283b45a4fe496ec4bc6d2b9a1fb4](https://github.com/yinghanguan/images/blob/main/bfc283b45a4fe496ec4bc6d2b9a1fb4.jpg)
 
   		出现这个错误是因为在更新驱动的时候，没有给galcore.ko权限。
 
