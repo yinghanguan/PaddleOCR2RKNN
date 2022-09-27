@@ -1,0 +1,15 @@
+project-name: det_time_sim
+models:
+  det_time_sim:
+    platform: onnx
+    model_file_path: det_sim.onnx
+    quantize: true
+    source: text
+    dataset: dataset.txt
+    configs:
+      quantized_dtype: asymmetric_quantized-u8
+      batch_size: 1
+      mean_values: [[0, 0, 0]]
+      std_values: [[1, 1, 1]]
+      reorder_channel: 0 1 2
+      target_platform: rv1126
