@@ -216,7 +216,7 @@ python3 precompile_rknn.py rknn_weights/rec_time_sim.rknn rec_hw.rknn
   ./ocr_demo system test_imgs/cut_time.jpg
   ```
 
-  ![50](https://github.com/yinghanguan/images/blob/main/50.png)
+  ![50](https://github.com/yinghanguan/images/blob/main/51.png)
 
   这样就得到了板端的推理结果，总体来说优化空间还很大。
 
