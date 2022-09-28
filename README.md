@@ -23,10 +23,8 @@
     pip install -r requirements.txt
     ```
 
-​	rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl下载地址请发邮件联系我，yinghan_guan@163.com，无偿。
-
 ```sh
-pip install rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl
+pip install rknn_toolkit-1.7.3-cp36-cp36m-linux_x86_64.whl
 ```
 
   <a name="1.2"></a>
@@ -37,6 +35,8 @@ pip install rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl
     - `RKNN不支持动态输入所以要固定输入`
     
       ![1](https://github.com/yinghanguan/PaddleOCR2RKNN/blob/main/test_imgs/1.jpg)
+      
+      - https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.3
     
     ```python
     '''anaconda3\envs\paddle\Lib\site-packages\paddleocr\tools\infer\predict_det.py的212行加入'''
@@ -129,7 +129,7 @@ python rknn_convert.py det_time/ rknn_weights/ 0
 python rknn_convert.py rec_time/ rknn_weights/ 0
 ```
 
-​	在rknn_weights文件夹中得到量化后的RKNN模型，在PC上的simulator运行python进行推理测试。注意：PC推理结果如果是错的，并不能证明模型不可用，可	能会编译之后会变好。亲测！
+​	在rknn_weights文件夹中得到量化后的RKNN模型，在PC上的simulator运行python进行推理测试。注意：PC推理结果如果是错的，并不能证明模型不可用，板子上的推理可能会在编译之后会变好。亲测！
 
 ```sh
 python paddle_ocr_rknn.py
@@ -167,7 +167,7 @@ sudo chmod +x galcore.ko
 
   - [2.2](#references--disallow-var)  预编译RKNN模型
 
-    > 预编译模型和没有预编译模型的区别只在于加载速度，经过我的测试，可能会存在未预编译推理结果是混乱的，预编译后恢复正常的情况。
+    > 预编译模型和没有预编译模型的区别只在于加载速度，经过我的测试，可能会存在未预编译推理结果是混乱（PC上的simulator）的，但板子上的推理正常是对的。预编译后恢复正常。
 
     ```sh
     python3 precompile_rknn.py rknn_weights/det_time_sim.rknn det_hw.rknn
