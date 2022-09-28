@@ -222,7 +222,7 @@ python3 precompile_rknn.py rknn_weights/rec_time_sim.rknn rec_hw.rknn
 
   |          | 检测模型 | 识别模型   |
   | -------- | -------- | ---------- |
-  | 推理耗时 | 29.273ms | 1421.446ms |
+  | 推理耗时 | 15.084ms | 1341.794ms |
 
 **[⬆ back to top](#目录)**
 
