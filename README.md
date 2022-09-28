@@ -23,7 +23,7 @@
     pip install -r requirements.txt
     ```
 
-​	rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl下载地址请发邮件联系我，yinghan_guan@163.com
+​	rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl下载地址请发邮件联系我，yinghan_guan@163.com，无偿。
 
 ```sh
 pip install rknn_toolkit-1.7.2.dev12229317-cp36-cp36m-linux_x86_64.whl
@@ -161,6 +161,12 @@ sudo chmod +x galcore.ko
 ```
 
 ​		这样做的话，只能在root用户下才能调用npu，如果想要方便的话就chown改个所有者。RV1126固件缺少几个库,同时为了支持导出预编译模型的功能,需要更新librknn_runtime.so。
+
+安装专门在线编译LSTM算子的rknn-toolkitLite,需求请邮件联系我yinghan_guan@163.com，无偿。
+
+```sh
+pip install rknn_toolkit_lite-1.7.2.dev.021415b5-cp37-cp37m-linux_armv7l.whl
+```
 
 <a name="2.2"></a>
   <a name="references--disallow-var"></a>
