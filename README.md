@@ -1,6 +1,6 @@
 # HorizonFlow Lab
-Welcome new members who has strong insight and motivition in AI and CS cross-fields. Feel free to email your CV/resume to our PI @ Yuanjie Gu 
-- https://github.com/GuYuanjie.
+Welcome new members who has strong insight and motivition in AI and CS cross-fields. Feel free to email your CV/resume to our PI 
+@ [Yuanjie Gu](https://github.com/GuYuanjie).
 
 Email1: yuanjie_gu@163.com
 Email2: yuanjie@horizonflow.top
