@@ -1,3 +1,9 @@
+# HorizonFlow Lab
+Welcome new members who has strong insight and motivition in AI and CS cross-fields. Feel free to email your CV/resume to our PI @ Yuanjie Gu.
+Email1: yuanjie_gu@163.com
+Email2: yuanjie@horizonflow.top
+
+
 # PaddleOCR2RKNN
 
 *转换官方paddleocr模型到瑞芯微板子上部署推理，提供全套部署流程以及c++推理程序。*
