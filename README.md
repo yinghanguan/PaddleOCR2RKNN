@@ -4,7 +4,7 @@ Welcome new members who has strong insight and motivition in AI and CS cross-fie
 
 Email1: yuanjie_gu@163.com
 Email2: yuanjie@horizonflow.top
-
+![LOGO](https://github.com/yinghanguan/images/blob/main/LOGO.jpg)
 
 # PaddleOCR2RKNN
 
